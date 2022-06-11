@@ -3,11 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2115" />
+        <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
+        <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/drawable/not_card.xml" value="0.2545" />
+        <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/drawable/splash.xml" value="0.124" />
         <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/layout/activity_not.xml" value="0.25" />
+        <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/layout/activity_not.xml" value="0.264" />
         <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/layout/activity_notekleme.xml" value="0.264" />
         <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/layout/activity_todoekleme.xml" value="0.25" />
         <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/layout/activity_todolist.xml" value="0.2" />
+        <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/layout/activity_todolist_ekleme.xml" value="0.25" />
+        <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/layout/not_card.xml" value="0.4" />
+        <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/layout/todolist_card.xml" value="0.264" />
+        <entry key="..\:/Users/tekru/AndroidStudioProjects/YourPlanner/app/src/main/res/layout/todolistcard.xml" value="0.24895833333333334" />
       </map>
     </option>
   </component>

@@ -11,12 +11,12 @@
         android:id="@+id/edittext_notarama"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="@color/white"
+        android:layout_marginStart="@dimen/AramaCubuguBosluklari"
+        android:layout_marginTop="@dimen/AramaCubuguBosluklari"
+        android:layout_marginEnd="@dimen/AramaCubuguBosluklari"
+        android:background="@color/aramacubugu"
         android:ems="10"
-        android:hint="Notlarınızda Arayın"
+        android:hint="@string/notarama"
         android:inputType="textPersonName"
         android:paddingLeft="45dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/img_search"
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginStart="14dp"
@@ -38,9 +38,22 @@
         android:id="@+id/img_notadd"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="@dimen/EklemeAltBosluk"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/add_icon" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notlar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/RecyleViewSagBosluk"
+        android:layout_marginTop="@dimen/RecycleViewUstBosluk"
+        android:layout_marginEnd="@dimen/RecyleViewSolBosluk"
+        android:layout_marginBottom="@dimen/RecyleViewAltBosluk"
+        app:layout_constraintBottom_toTopOf="@+id/img_notadd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_notarama" />
 </androidx.constraintlayout.widget.ConstraintLayout>

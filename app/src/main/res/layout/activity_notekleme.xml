@@ -11,8 +11,8 @@
         android:id="@+id/img_kaydet"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginTop="@dimen/noteklemeImageViewSagBosluk"
+        android:layout_marginEnd="@dimen/noteklemeImageViewSolBosluk"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/tick_icon" />
@@ -20,10 +20,10 @@
     <EditText
         android:id="@+id/edittext_baslik"
         android:layout_width="0dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
+        android:layout_height="@dimen/noteklemeEditTextYukseklik"
+        android:layout_marginStart="@dimen/noteklemeEditTextUstBosluk"
+        android:layout_marginTop="@dimen/noteklemeEditTextSagBosluk"
+        android:layout_marginEnd="@dimen/noteklemeEditTextSolBosluk"
         android:ems="10"
         android:textColor="@color/white"
         android:inputType="textPersonName"
@@ -36,10 +36,10 @@
         android:id="@+id/edittext_not"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="@dimen/noteklemeEditText1UstBosluk"
+        android:layout_marginTop="@dimen/noteklemeEditText1UstBosluk"
+        android:layout_marginEnd="@dimen/noteklemeEditText1SolBosluk"
+        android:layout_marginBottom="@dimen/noteklemeEditText1AltBosluk"
         android:ems="10"
         android:gravity="start|top"
         android:hint="Not"
@@ -51,4 +51,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edittext_baslik"
         app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

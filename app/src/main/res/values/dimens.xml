@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="AramaCubuguBosluklari">16dp</dimen>
+    <dimen name="EklemeAltBosluk">40dp</dimen>
+    <dimen name="RecycleViewUstBosluk">16dp</dimen>
+    <dimen name="RecyleViewAltBosluk">32dp</dimen>
+    <dimen name="RecyleViewSagBosluk">8dp</dimen>
+    <dimen name="RecyleViewSolBosluk">8dp</dimen>
+    <dimen name="noteklemeEditTextYukseklik">45dp</dimen>
+    <dimen name="noteklemeEditTextUstBosluk">32dp</dimen>
+    <dimen name="noteklemeEditTextSagBosluk">16dp</dimen>
+    <dimen name="noteklemeEditTextSolBosluk">16dp</dimen>
+    <dimen name="noteklemeImageViewGenislik">45dp</dimen>
+    <dimen name="noteklemeImageViewYukseklik">45dp</dimen>
+    <dimen name="noteklemeImageViewSagBosluk">32dp</dimen>
+    <dimen name="noteklemeImageViewSolBosluk">32dp</dimen>
+    <dimen name="noteklemeEditText1UstBosluk">16dp</dimen>
+    <dimen name="noteklemeEditText1AltBosluk">16dp</dimen>
+    <dimen name="noteklemeEditText1SagBosluk">16dp</dimen>
+    <dimen name="noteklemeEditText1SolBosluk">16dp</dimen>
+
+
+</resources>
